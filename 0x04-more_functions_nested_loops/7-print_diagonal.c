@@ -7,41 +7,18 @@
 
 void print_diagonal(int n)
 {
-	if (n <= 0)
-	{
-		_putchar('\n');
-	} else
-	{
-		int i, j;
+  int postn, space;
 
-		for (i = 0; i < n; i++)
-		{
-			for (j = 0; j < n; j++)
-			{
-				if (j == i)
-					_putchar('\\');
-				else if (j < i)
-					_putchar(' ');
-			}
+  if (n <= 0)
+    _putchar('\n');
+  else
+    {
+      for (postn = 1; postn <= n; postn++)
+	{
+	  for (space = 1; space <= pstn; space++)
+ 					_putchar(' ');
+			_putchar(92); /*is equal to '/' char*/
 			_putchar('\n');
 		}
 	}
-}
-
-
-7-main.c
-#include "main.h"
-
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    print_diagonal(0);
-    print_diagonal(2);
-    print_diagonal(10);
-    print_diagonal(-4);
-    return (0);
 }
