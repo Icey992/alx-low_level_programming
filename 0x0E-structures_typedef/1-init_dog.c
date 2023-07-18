@@ -1,7 +1,7 @@
 #include "dog.h"
 
 /**
- * init_dog - intializes a dog 
+ * init_dog - initializes a dog 
  * @d: the dog to init
  * @name: dog's name
  * @age: dog's age
@@ -18,3 +18,4 @@ void init_dog(struct dog *d, char *name, float age, char *owner)
     d->owner = owner;
     }
 }
+
