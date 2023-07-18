@@ -10,11 +10,12 @@
  * Description: just a lone dog struct  in a big kitty world 
  */
  struct dog
- {
+{
    char *name;
    float age;
    char *owner;
- };
+};
 
 #endif
+
 
